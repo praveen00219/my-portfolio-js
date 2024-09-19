@@ -1,0 +1,26 @@
+Personal Portfolio
+
+# sidebar
+
+alt = Praveen
+Praveen
+Full Stack Web developer
+
+Show Contacts
+
+Email
+par******@gmail.com
+
+Phone
++91 **********
+
+Location
+Rajasthan, India
+
+# navbar
+
+About
+Education / Skills
+Projects
+Certificates
+Contact

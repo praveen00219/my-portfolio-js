@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praveen</title>
+
+  <!-- - favicon-->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--- custom css link-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Tailwind CSS CDN Link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!--- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Link -->
+  <script src="https://kit.fontawesome.com/b87c274736.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--- #MAIN-->
+  <main>
+    <!--- #SIDEBAR-->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Praveen</h1>
+          <p class="title">Full Stack Web Developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:paru2192000@gmail.com" class="contact-link">paru2192000@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+917297952644" class="contact-link">+91 7297952644</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Rajasthan, India</address>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Resume download button -->
+        <!-- href="YOUR_RESUME_LINK_HERE": Replace this with the direct link to your resume file. -->
+        <!-- download="YourName_Resume.pdf": Specifies the name of the file that will be downloaded.  -->
+        <a href="YOUR_RESUME_LINK_HERE" download="YourName_Resume.pdf"
+          class="flex gap-8 items-center text-xs bg-green-500 text-white px-3 py-2 mt-6 rounded-lg shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-blue-300 transition-all duration-300">
+          <span>
+            Download Resume
+          </span>
+          <span class="text-black">
+            <i class="fa-solid fa-arrow-down"></i>
+          </span>
+        </a>
+
+        <!-- Social-List -->
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item text-yellow-400">
+            <a href="https://www.linkedin.com/in/praveen219/" class="social-link">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/praveen00219" class="social-link">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://leetcode.com/u/Prvn21/" class="social-link">
+              <img src="/assets/images/Social-Icon/leetcode-logo.png" class="w-5" alt="leetcode-logo-icon">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.hackerrank.com/profile/paru2192000" class="social-link">
+              <img src="/assets/images/Social-Icon/Hackerrank_logo.webp" class="w-5" alt="Hackerrank_logo-icon">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+
+
+
+
+    <!--- #main-content-->
+    <div class="main-content">
+      <!--- #NAVBAR-->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+
+
+
+
+      <!--- #ABOUT-->
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            🎓 Graduated with a BSc from MDS-University in Ajmer (Rajasthan) and Currently learning Full-Stack Web
+            Development
+            at @Geekster.
+          </p>
+          <p>
+            🔧 Hold several certificates in key areas including Git-GitHub, Building Responsive Pages, Java,
+            JavaScript, and SQL.
+            My certifications come from esteemed platforms like Geekster, freeCodeCamp, and HackerRank.
+          </p>
+          <p>
+            🎓 Completed courses in "Mastering the Java Fundamentals," "Mastering JavaScript Programming," and an
+            SQL course
+            from Geekster, equipping me with a solid foundation in these technologies.
+          </p>
+          <p>
+            🏆 Additionally, I have earned the "Java Course - Mastering the Fundamentals" Certification at SCALER-TOPICS
+            and
+            achieved the "Legacy JavaScript Algorithms and Data Structures" Developer Certification from freeCodeCamp.
+          </p>
+
+          <p>
+            I’ve developed a deep understanding of web technologies, programming languages, and modern frameworks. From
+            designing
+            captivating front-end interfaces to building robust back-end infrastructures, I am driven by a passion for
+            solving
+            complex problems and delivering high-quality solutions.
+          </p>
+
+        </section>
+
+
+        <!--- service -->
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Front-End Development</h4>
+                <p class="service-item-text">
+                  The most modern and high-quality, responsive, and interactive web pages made at a professional level.
+                </p>
+                <div class="flex gap-3 mt-3">
+                  <img src="/assets/images/tools/html.webp" class="w-5" alt="html">
+                  <img src="/assets/images/tools/css.svg" class="w-5" alt="CSS">
+                  <img src="/assets/images/tools/Java.png" class="w-5" alt="Java">
+                  <img src="/assets/images/tools/JS.webp" class="w-5" alt="JS">
+                  <img src="/assets/images/tools/Tailwindcss.png" class="w-5" alt="Tailwindcss">
+                  <img src="/assets/images/tools/ReactJS.webp" class="w-5" alt="ReactJS">
+                </div>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Back-End Development</h4>
+                <p class="service-item-text">
+                  Handles professional authentication, business logic, and APIs, and designs, implements, and manages
+                  databases.
+                </p>
+                <div class="flex gap-3 mt-3">
+                  <img src="/assets/images/tools/NodeJS.png" class="w-5" alt="NodeJS">
+                  <img src="/assets/images/tools/ExpressJS.webp" class="w-5" alt="ExpressJS">
+                  <img src="/assets/images/tools/MongoDB.svg" class="w-5" alt="MongoDB">
+                  <img src="/assets/images/tools/firebase.png" class="w-5" alt="firebase">
+                  <img src="/assets/images/tools/cloudinary-icon.png" class="w-5" alt="cloudinary-icon">
+                  <img src="/assets/images/tools/postman.svg" class="w-5" alt="postman">
+                </div>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="React-JS icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full-Stack React-JS</h4>
+                <p class="service-item-text">
+                  Handle both client-side (UI) and server-side (business logic, database) tasks, Deploy web apps to
+                  servers, allowing them to create a complete web application from scratch.
+                </p>
+                <p class="service-item-text">
+                  Git and GitHub to manage code versions, collaborate with teams, and review/merge code efficiently.
+                </p>
+                <div class="flex gap-3 mt-3 flex-wrap">
+                  <img src="/assets/images/tools/html.webp" class="w-5" alt="html">
+                  <img src="/assets/images/tools/css.svg" class="w-5" alt="CSS">
+                  <img src="/assets/images/tools/Java.png" class="w-5" alt="Java">
+                  <img src="/assets/images/tools/JS.webp" class="w-5" alt="JS">
+                  <img src="/assets/images/tools/Tailwindcss.png" class="w-5" alt="Tailwindcss">
+                  <img src="/assets/images/tools/ReactJS.webp" class="w-5" alt="ReactJS">
+
+                  <img src="/assets/images/tools/NodeJS.png" class="w-5" alt="NodeJS">
+                  <img src="/assets/images/tools/ExpressJS.webp" class="w-5" alt="ExpressJS">
+                  <img src="/assets/images/tools/MongoDB.svg" class="w-5" alt="MongoDB">
+                  <img src="/assets/images/tools/firebase.png" class="w-5" alt="firebase">
+                  <img src="/assets/images/tools/cloudinary-icon.png" class="w-5" alt="cloudinary-icon">
+
+                  <img src="/assets/images/tools/Git_icon.png" class="w-5" alt="Git_icon">
+                  <img src="/assets/images/tools/gitHub.png" class="w-5" alt="gitHub">
+                  <img src="/assets/images/tools/postman.svg" class="w-5" alt="postman">
+                  <img src="/assets/images/tools/Visual_Studio_Code.png" class="w-5" alt="Visual_Studio_Code">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        <!--- testimonials-->
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Projects</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Projects-Things/linkedin.png" alt="Daniel lewis" width="60"
+                    data-testimonials-avatar class="py-[5px] h-16">
+                </figure>
+                <h4 class="h4 testimonials-item-title mt-3 flex gap-2 items-center flex gap-2 items-center"
+                  data-testimonials-title>
+                  LinkedIn Clone (MERN Stack)
+                  <a class="text-blue-500 underline text-sm" href="">Live</a>
+                  <a class="text-yellow-300 ml-2 text-sm" href=""><i class="fa-brands fa-github"></i></a>
+                </h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I developed a LinkedIn clone using the MERN stack, demonstrating my ability to build a fully
+                    functional social
+                    networking platform. This project showcases my proficiency in both front-end and back-end
+                    development, as well as my
+                    understanding of real-time data handling and user authentication.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Projects-Things/Netflix.png" alt="Jessica miller" width="60"
+                    data-testimonials-avatar class="py-[5px] h-16">
+                </figure>
+                <h4 class="h4 testimonials-item-title mt-3 flex gap-2 items-center" data-testimonials-title>
+                  Netflix Clone (MERN Stack)
+                  <a class="text-blue-500 underline text-sm" href="">Live</a>
+                  <a class="text-yellow-300 ml-2 text-sm" href=""><i class="fa-brands fa-github"></i></a>
+                </h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I built a fully functional Netflix clone using the MERN stack (MongoDB, Express.js, React.js,
+                    Node.js), which replicates
+                    key features of the popular streaming platform. This project demonstrates my ability to create a
+                    feature-rich,
+                    user-friendly web application with a focus on front-end design, back-end functionality, and
+                    real-time data handling.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Projects-Things/Amazon_icon.svg" alt="Emily evans" width="60"
+                    data-testimonials-avatar class="py-[5px] h-16">
+                </figure>
+                <h4 class="h4 testimonials-item-title mt-3 flex gap-2 items-center" data-testimonials-title>
+                  Amazon Clone (MERN Stack)
+                  <a class="text-blue-500 underline text-sm" href="">Live</a>
+                  <a class="text-yellow-300 ml-2 text-sm" href=""><i class="fa-brands fa-github"></i></a>
+                </h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I developed a fully functional Amazon clone using the MERN stack (MongoDB, Express.js, React.js,
+                    Node.js), mimicking
+                    core features of the e-commerce platform. This project highlights my ability to build scalable,
+                    user-focused
+                    JavaScript with complex front-end and back-end functionalities.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar
+                    class="py-[5px]  h-16">
+                </figure>
+                <h4 class="h4 testimonials-item-title mt-3 flex gap-2 items-center" data-testimonials-title>
+                  Henry william
+                  <a class="text-blue-500 underline text-sm" href="">Live</a>
+                  <a class="text-yellow-300 ml-2 text-sm" href=""><i class="fa-brands fa-github"></i></a>
+                </h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        <!--- testimonials modal-->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <time datetime="2024-10-14">2024</time>
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+        <!--- clients-->
+        <section class="clients">
+          <h3 class="h3 clients-title">Clients</h3>
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--- #Education / Skill-->
+      <article class="resume" data-page="education">
+        <header>
+          <h2 class="h2 article-title">Education/ Skills</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Geekster </h4>
+              <span>Jan, 2024 — Dec, 2024</span>
+              <p class="timeline-text">
+                Full-Stack React-JS Course
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Post Graduaction
+              </h4>
+              <span>Aug, 2022 — Oct, 2025</span>
+              <p class="timeline-text">
+                MSc (Maths) from VMOU | Vardhman Mahaveer Open University, Kota
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Graduaction
+              </h4>
+              <span>Aug, 2017 — Oct, 2021</span>
+              <p class="timeline-text">
+                BSc (Maths) from MDSU | Maharshi Dayanand Saraswati University, Ajmer.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">High school (12th Board)</h4>
+              <span>Jul, 2016 — May, 2017</span>
+              <p class="timeline-text">
+                Completed senior secondary education with 83.40% from RBSE | Board Of Secondary Eduation, Rajasthan.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Matrix School (10th Board)</h4>
+              <span>Jul, 2014 — Jun, 2015</span>
+              <p class="timeline-text">
+                Completed secondary education with 83.33% from RBSE | Board Of Secondary Eduation, Rajasthan.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Creative director</h4>
+              <span>2015 — Present</span>
+              <p class="timeline-text">
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+
+        <!-- Skills -->
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Programming Languages:</h4>
+              <div class="flex gap-3 flex-wrap mt-3">
+                <img src="/assets/images/tools/html.webp" class="w-16" alt="html">
+                <img src="/assets/images/tools/css.svg" class="w-16" alt="CSS">
+                <img src="/assets/images/tools/Java.png" class="w-16" alt="Java">
+                <img src="/assets/images/tools/JS.webp" class="w-16" alt="JS">
+                <img src="/assets/images/tools/NodeJS.png" class="w-16" alt="NodeJS">
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Frameworks & Libraries:</h4>
+              <div class="flex gap-3 flex-wrap mt-3">
+                <img src="/assets/images/tools/Tailwindcss.png" class="w-16" alt="Tailwindcss">
+                <img src="/assets/images/tools/ReactJS.webp" class="w-16" alt="ReactJS">
+                <img src="/assets/images/tools/ExpressJS.webp" class="w-16" alt="ExpressJS">
+                <img src="/assets/images/tools/MongoDB.svg" class="w-16" alt="MongoDB">
+                <img src="/assets/images/tools/firebase.png" class="w-16" alt="firebase">
+                <img src="/assets/images/tools/cloudinary-icon.png" class="w-16" alt="cloudinary-icon">
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Tools:</h4>
+              <div class="flex gap-3 flex-wrap mt-3">
+                <img src="/assets/images/tools/Git_icon.png" class="w-16" alt="Git_icon">
+                <img src="/assets/images/tools/gitHub.png" class="w-16" alt="gitHub">
+                <img src="/assets/images/tools/postman.svg" class="w-16" alt="postman">
+                <img src="/assets/images/tools/Visual_Studio_Code.png" class="w-16" alt="Visual_Studio_Code">
+              </div>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+
+
+
+
+      <!--- #PORTFOLIO-->
+      <article class="portfolio" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>HTML CSS</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>JavaScript</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>React-JS</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>MERN-Stack</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>HTML CSS</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>JavaScript</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>React-JS</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>MERN-Stack</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="React-JS">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Finance</h3>
+                <p class="project-category">React-JS</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="React-JS">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Orizon</h3>
+                <p class="project-category">React-JS</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="HTML CSS">
+              <a href="https://main--css-project0.netlify.app/projests/landing-page-html-css/index.html">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/html-css/Aria-business.jpg" alt="fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title">Aria Business Services</h3>
+                <p class="project-category">HTML CSS</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-expense-tracker-odoo.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/Expense_Tracker.jpg" alt="Expense_Tracker"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Odoo | Expense Tracker</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3"> Finance management tool | Expense Tracker | Data Visualization |
+                  AI Financial Advisor | Taxes Calculator + Tour Guide | Payment Integration.</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="HTML CSS">
+              <a href="https://praveen-hotelscloneweb.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/html-css/hotelscom.jpg" alt="dsm." loading="lazy">
+                </figure>
+                <h3 class="project-title">Hotels.com</h3>
+                <p class="project-category">HTML CSS</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveenbook.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/The-Book-Store.jpg" alt="The-Book-Store"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">The Book Store</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  Explore a variety of books across different categories | Dark mode support | User authentication |
+                  Detailed book information.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="React-JS">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">Summary</h3>
+                <p class="project-category">React-JS</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-unsplash-clone.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/unsplash clone (Search).jpg" alt="task manager"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Unsplash Clone</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3"> Search for images from the Unsplash API | Infinite Scrolling</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-golden-movie-club.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/Movie-club.jpg" alt="Movie-club" loading="lazy">
+                </figure>
+                <h3 class="project-title">Movie Club</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">Search for movies | View movie details | Paginate through results.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="React-JS">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Arrival</h3>
+                <p class="project-category">React-JS</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-calculator.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/calculator.jpg" alt="calculator" loading="lazy">
+                </figure>
+                <h3 class="project-title">Digital Calculator</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  Perform Basic Arithmetic Operations.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-hot-gadgets.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/hot-gadgets.jpg" alt="hot-gadgets"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Hot Gadgets</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  Allows users to search for and view details about various phones.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-password-generator-app.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/password-generator.jpg" alt="password-generator"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Password Generator</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  Create secure passwords based on their selected preferences. | Copy to the clipboard.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-real-chart.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/real-time-data-chart.jpg"
+                    alt="real-time-data-chart" loading="lazy">
+                </figure>
+                <h3 class="project-title">Real Time Data Chart</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  Dynamic | Real-Time Data Visualization Tool uilt using Chart.js,
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-geeksterpokemon.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/geeksterPokemon.jpg" alt="geeksterPokemon"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Geekster Pokemon</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  Showcases Pokémon with a modern | Search Functionality | Filter | Creative Animations.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-olympic-leader-board.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/olympic-leaderBoard.jpg"
+                    alt="olympic-leaderBoard" loading="lazy">
+                </figure>
+                <h3 class="project-title">Olympic leaderBoard</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  Showcases a dynamic leaderboard where users can add players, view the top 3 players, and manage their
+                  scores.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-digital-clock.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/digital-clock.jpg" alt="digital-clock"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Digital Clock</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  Current time in real-time | Includes creative elements such as dynamic background changes and random
+                  time-related
+                  facts.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-stop-watch.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/stop-watch.jpg" alt="stop-watch" loading="lazy">
+                </figure>
+                <h3 class="project-title">Stop Watch</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  This stopwatch features functionalities to start, stop, reset, and record lap times.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-burger-king-franchise.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/Burger-king.jpg" alt="Burger-king"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Burger King Virtual Order</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  This web application allows users to select items from the menu, specify quantities, and place an
+                  order. The system
+                  provides a simulated experience of ordering food online.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-joke-generate.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/jokes-generator.jpg" alt="jokes-generator"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Jokes Generator</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  Interactive web application that generates dad jokes and displays them with animated emoji bubbles and
+                  a sound effect.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-feedback.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/feedback.jpg" alt="jokes-feedback"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Feedback UI</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  Feedback UI where users can select their feedback (e.g., Unhappy, Neutral, Satisfied) and submit it to
+                  display a
+                  confirmation message.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-find-emoji.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/emoji.jpg" alt="Emoji-find" loading="lazy">
+                </figure>
+                <h3 class="project-title">Find Your Emoji</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  Its allows users to search for and filter emojis | Copy to the clipboard.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-age-calc.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/age-calculator.jpg" alt="age-calculator"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Age Calculator</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  It's allows to calculate the age.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="https://praveen-keypress-code.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects-Things/JavaScript/Keyboardkeycode.jpg" alt="Keyboardkeycode"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Keyboard's keycode</h3>
+                <p class="project-category">JavaScript</p>
+                <p class="text-xs text-gray-300 px-3">
+                  Interactive web application that displays the key and keycode of the pressed key.
+                </p>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--- #Certificates -->
+
+      <article class="blog" data-page="certificates">
+        <header>
+          <h2 class="h2 article-title">Certificates</h2>
+        </header>
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--- #CONTACT -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228975.03489132784!2d72.86573209839574!3d26.270265320732502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c4eaa06ccb9%3A0x8114ea5b0ae1abb8!2sJodhpur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1726673298269!5m2!1sen!2sin"
+              width="400" height="3000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
