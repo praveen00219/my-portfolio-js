@@ -1,7 +1,5 @@
 # Portfolio
 
-![GitHub repo size](https://github.com/praveen00219/my-portfolio-js)
-
 This is a fully responsive my personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
 ## Demo
