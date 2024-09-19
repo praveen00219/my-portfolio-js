@@ -1,13 +1,13 @@
-# vCard - Personal portfolio
+# Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
+![GitHub repo size](https://github.com/praveen00219/my-portfolio-js)
 
 This is a fully responsive my personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
 ## Demo
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+![Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
+![Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
 ## Contact
 
