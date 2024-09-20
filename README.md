@@ -4,8 +4,8 @@ This is a fully responsive my personal portfolio website, responsive for all dev
 
 ## Demo
 
-![Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+![Desktop Demo](/assets/images/showcase/desktop-views.png "Desktop Demo")
+![Mobile Demo](/assets/images/showcase/mobile-view.png "Mobile Demo")
 
 ## Contact
 
