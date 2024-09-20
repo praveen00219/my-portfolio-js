@@ -4,6 +4,8 @@ This is a fully responsive my personal portfolio website, responsive for all dev
 
 ## Demo
 
+Check out live demo here: [Praveen | Web Developer](https://praveen-portfolio-js.netlify.app/)
+
 ![Desktop Demo](/assets/images/showcase/desktop-views.png "Desktop Demo")
 ![Mobile Demo](/assets/images/showcase/mobile-view.png "Mobile Demo")
 
